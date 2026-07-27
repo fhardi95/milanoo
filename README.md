@@ -66,4 +66,3 @@ guidance for affiliate/paid links.
 All styling lives in `app/globals.css` as CSS custom properties at the
 top (`--ink`, `--wine`, `--brass`, etc.) — change those and the fonts in
 `app/layout.js` to reskin without touching component logic.
-"# milanoo" 
