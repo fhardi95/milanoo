@@ -1,4 +1,4 @@
-# MODISTE — Next.js storefront
+# Tavirae — Next.js storefront
 
 A real multi-page Next.js (App Router) site built from `data/products.json`
 (10,355 items). Every category and every product gets its own crawlable,
@@ -57,7 +57,7 @@ scheduled revalidation picks up new data automatically.
 Every listing here is sold and fulfilled by a retail partner (the feed's
 `link` field). "Add to bag" only tracks items locally in this tab;
 "Continue to retailer" opens each item's real product page in a new tab —
-there's no payment flow to build because MODISTE isn't the merchant of
+there's no payment flow to build because Tavirae isn't the merchant of
 record. Outbound retailer links use `rel="sponsored"` per Google's
 guidance for affiliate/paid links.
 

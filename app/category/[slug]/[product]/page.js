@@ -31,7 +31,7 @@ export function generateMetadata({ params }) {
   const canonical = `/category/${buildCategorySlug(product.category)}/${buildProductSlug(product)}`;
   const price = effectivePrice(product);
   const title = product.title;
-  const description = product.description?.slice(0, 155) || `${product.title} — ${formatPrice(price)} at MODISTE.`;
+  const description = product.description?.slice(0, 155) || `${product.title} — ${formatPrice(price)} at Tavirae.`;
 
   return {
     title,

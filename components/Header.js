@@ -10,7 +10,7 @@ export default function Header({ activeCategorySlug }) {
       <div className="header-top">
         <Link href="/" className="brand">
           <span className="brand-mark">M</span>
-          <span className="brand-name">MODISTE</span>
+          <span className="brand-name">Tavirae</span>
         </Link>
 
         <form action="/search" method="get" className="search-wrap" role="search">

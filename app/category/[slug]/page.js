@@ -25,13 +25,13 @@ export function generateMetadata({ params, searchParams }) {
   const canonical = hasFilters ? basePath : page > 1 ? `${basePath}?page=${page}` : basePath;
 
   const title = `${category.name}${page > 1 ? ` — Page ${page}` : ''}`;
-  const description = `Shop ${category.count.toLocaleString()} ${category.name.toLowerCase()} pieces at MODISTE. ${categoryIntro(category.name, category.count)}`;
+  const description = `Shop ${category.count.toLocaleString()} ${category.name.toLowerCase()} pieces at Tavirae. ${categoryIntro(category.name, category.count)}`;
 
   return {
     title,
     description,
     alternates: { canonical },
-    openGraph: { title: `${title} — MODISTE`, description, url: `${SITE_URL}${canonical}` }
+    openGraph: { title: `${title} — Tavirae`, description, url: `${SITE_URL}${canonical}` }
   };
 }
 

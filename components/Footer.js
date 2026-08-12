@@ -9,8 +9,8 @@ export default function Footer() {
       <div className="footer-grid">
         <div className="footer-brand">
           <span className="brand-mark">M</span>
-          <span className="brand-name">MODISTE</span>
-          <p>A catalogue, not a warehouse. Every item here ships from and is sold by our retail partner — MODISTE simply helps you find it.</p>
+          <span className="brand-name">Tavirae</span>
+          <p>A catalogue, not a warehouse. Every item here ships from and is sold by our retail partner — Tavirae simply helps you find it.</p>
         </div>
         <div className="footer-col">
           <h4>Shop</h4>
@@ -30,7 +30,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <span>© {new Date().getFullYear()} MODISTE — a demo storefront built from a live product feed.</span>
+        <span>© {new Date().getFullYear()} Tavirae — a demo storefront built from a live product feed.</span>
       </div>
     </footer>
   );

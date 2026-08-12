@@ -76,7 +76,7 @@ export default function HomePage() {
     <>
       <Header />
 
-      <h1 className="visually-hidden">MODISTE — curated fashion catalogue, {total.toLocaleString()} pieces</h1>
+      <h1 className="visually-hidden">Tavirae — curated fashion catalogue, {total.toLocaleString()} pieces</h1>
 
       <HeroCarousel slides={slides} />
       <CategoryStrip categories={categoriesForStrip} />
@@ -103,9 +103,9 @@ export default function HomePage() {
       <TrustBar />
 
       <section className="about-copy">
-        <h2>About the MODISTE catalogue</h2>
+        <h2>About the Tavirae catalogue</h2>
         <p>
-          MODISTE indexes {total.toLocaleString()} listings from our retail partner&apos;s live product feed —
+          Tavirae indexes {total.toLocaleString()} listings from our retail partner&apos;s live product feed —
           {' '}{categories.map((c) => c.name.toLowerCase()).join(', ')} — so you can search, filter and
           compare across the whole range in one place instead of paging through a single storefront.
           Every price, colour and size shown here reflects the partner feed at last refresh; checkout
